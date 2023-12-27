@@ -8,16 +8,5 @@ Multi Threaded:
 Time Complexity:  With perfect scaling, using p threads could reduce time complexity to approximately O(n log n / p) in best-case scenarios.
 Space Complexity: The space complexity is O(x)
 
-Summary of executions:
-Singel Thread: 
-INFO: Execution time with MAX_ROWS = 2: 31950 milliseconds
-INFO: Execution time with MAX_ROWS = 5: 10211 milliseconds
-INFO: Execution time with MAX_ROWS = 10: 5367 milliseconds
-INFO: Execution time with MAX_ROWS = 20: 2650 milliseconds
+Full Execution Summary in result.txt 
 
-
-Multi Threaded (4 Thread Core i7 computer) 
-INFO: MAX_ROWS = 2: 33502 milliseconds
-INFO: MAX_ROWS = 20: 2189 milliseconds
-INFO: MAX_ROWS = 5: 10869 milliseconds
-INFO: MAX_ROWS = 10: 4599 milliseconds
