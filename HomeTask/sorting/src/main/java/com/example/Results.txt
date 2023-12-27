@@ -19,6 +19,22 @@ Dec 27, 2023 9:28:50 PM com.example.CSVSorter main
 INFO: Total execution time: 2856 milliseconds
 Dec 27, 2023 9:28:50 PM com.example.CSVSorterTest testDifferentMaxRowsValues
 INFO: Execution time with MAX_ROWS = 20: 2857 milliseconds
+CSV sorted successfully.
+Dec 27, 2023 10:49:34 PM com.example.CSVSorter main
+INFO: Total execution time: 32415 milliseconds
+Dec 27, 2023 10:49:34 PM com.example.CSVSorterTest testDifferentMaxRowsValues
+INFO: Execution time with MAX_ROWS = 30: 32484 milliseconds
+CSV sorted successfully.
+Dec 27, 2023 10:49:55 PM com.example.CSVSorter main
+INFO: Total execution time: 20936 milliseconds
+Dec 27, 2023 10:49:55 PM com.example.CSVSorterTest testDifferentMaxRowsValues
+INFO: Execution time with MAX_ROWS = 50: 20938 milliseconds
+CSV sorted successfully.
+Dec 27, 2023 10:50:04 PM com.example.CSVSorter main
+INFO: Total execution time: 8763 milliseconds
+Dec 27, 2023 10:50:04 PM com.example.CSVSorterTest testDifferentMaxRowsValues
+INFO: Execution time with MAX_ROWS = 100: 8765 milliseconds
+
 
 
 MultiThreaded: 
@@ -32,3 +48,12 @@ INFO: MAX_ROWS = 5: 9505 milliseconds
 Dec 27, 2023 9:27:32 PM com.example.MultiThreadedCSVSorterTest lambda$logSummary$0
 INFO: MAX_ROWS = 10: 4902 milliseconds
 
+INFO: ----- Summary of Execution Times -----
+Dec 27, 2023 10:51:32 PM com.example.MultiThreadedCSVSorterTest lambda$logSummary$0
+INFO: MAX_ROWS = 50: 13704 milliseconds
+Dec 27, 2023 10:51:32 PM com.example.MultiThreadedCSVSorterTest lambda$logSummary$0
+INFO: MAX_ROWS = 100: 6089 milliseconds
+Dec 27, 2023 10:51:32 PM com.example.MultiThreadedCSVSorterTest lambda$logSummary$0
+INFO: MAX_ROWS = 1000: 3232 milliseconds
+Dec 27, 2023 10:51:32 PM com.example.MultiThreadedCSVSorterTest lambda$logSummary$0
+INFO: MAX_ROWS = 30: 24465 milliseconds
